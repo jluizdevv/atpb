@@ -1,0 +1,251 @@
+/* styles.css */
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos específicos para cada componente */
+  
+  /* Estilos para o componente Login */
+  .login-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para o componente Estagiarios */
+  .estagiarios-container {
+    margin-top: 20px;
+  }
+  
+  .estagiarios-container h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .estagiarios-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .estagiarios-container ul {
+    padding-left: 20px;
+  }
+  
+  .estagiarios-container li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 2px solid #333;
+  }
+  
+  .estagiarios-container li p {
+    margin-bottom: 5px;
+  }
+  
+  .estagiarios-container .logout-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .estagiarios-container .back-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .estagiarios-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style-type: none;
+  }
+  
+  .estagiarios-list-item {
+    background-color: #3b0707;
+    padding: 20px;
+  }
+  
+  /* Adicione este estilo para fundo colorido nas colunas */
+  .estagiarios-list-item:nth-child(3n+1) {
+    background-color: #e4bfbf; 
+  }
+  
+  .estagiarios-list-item:nth-child(3n+2) {
+    background-color: #e4bfbf; 
+  }
+  
+  .estagiarios-list-item:nth-child(3n+3) {
+    background-color: #90EE90; 
+  }
+  
+
+ 
+.cadastro-estagiario-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cadastro-estagiario-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cadastro-estagiario-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .cadastro-estagiario-container .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .cadastro-estagiario-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cadastro-estagiario-container .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cadastro-estagiario-container .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cadastro-estagiario-container .form-group button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  .link-cadastrar-usuario {
+    color: #0421dd; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-cad-estagiario {
+    color: #092f97; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .link-exibir-estagiarios{
+    color: #092f97; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .editar-estagiario-link{
+    color: #092f97; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
